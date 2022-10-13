@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 /venv
 /__pycache__/
 *.pyc
+=======
+<<<<<<< HEAD
+=======
+*.pyc
+
+>>>>>>> master
+>>>>>>> release
 **/*.pyc
 .env
