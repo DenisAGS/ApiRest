@@ -1,0 +1,13 @@
+version: '3'
+services:
+  adsoft-dev:
+    build: .
+    image: denisse/graphql-api
+    container_name: denisse-graphql-dev
+    command: python manage.py runserver --setting=settings.develop 0.0.0.0:8080
+    volumes:
+    - .:/hackernews
+    ports:
+    - "8106:8080"
+    env_file:
+      - .env
